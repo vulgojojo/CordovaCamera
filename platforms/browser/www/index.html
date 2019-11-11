@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <title>Cordova Camera</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            button{
+				color: white;
+				background: #333;
+                width: 60%;
+                height: 40%;
+            }
+
+            .app {
+                border-radius: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                text-align: center;
+                background: rgb(231, 231, 231);
+                height: 100%;
+            }
+            #imgHtmlTag {
+                margin:20px;
+                width: 400px;
+                height: 200px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Cordova Camera</h1>
+            <button type="button" id="btnTirarFoto">Tirar foto</button><br>
+            <img src="" id="imgHtmlTag" alt="Aguardando imagem."></img>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
